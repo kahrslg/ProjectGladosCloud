@@ -97,6 +97,7 @@
   <ItemGroup>
     <Content Include="AddGameWebForm.aspx" />
     <Content Include="AdministratorWebForm.aspx" />
+    <Content Include="CommentWebForm.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="ModeratorWebForm.aspx" />
     <Content Include="packages.config" />
@@ -135,6 +136,13 @@
     </Compile>
     <Compile Include="AdministratorWebForm.aspx.designer.cs">
       <DependentUpon>AdministratorWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CommentWebForm.aspx.cs">
+      <DependentUpon>CommentWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CommentWebForm.aspx.designer.cs">
+      <DependentUpon>CommentWebForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
